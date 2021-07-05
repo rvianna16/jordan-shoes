@@ -1,0 +1,57 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+:root {
+  --bgSite: #f6f6f6;
+  --bgCard: #ebe9ea;
+  --white: #fff;
+  --title: #181818;
+  --text: #474747;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bgSite);
+  font-family: 'Montserrat-Medium';
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* responsive  */
+
+@media only screen and (max-width: 765px) {
+  .container {
+    width: 374px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 320px;
+  }
+}

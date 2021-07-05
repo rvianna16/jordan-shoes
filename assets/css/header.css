@@ -1,0 +1,19 @@
+.header__info,
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.header__info {
+  background: var(--title);
+}
+
+.header__info p {
+  color: var(--white);
+}
+
+.header__title {
+  font: 24px 'Montserrat-SemiBold';
+}
