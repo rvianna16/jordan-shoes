@@ -108,6 +108,14 @@
   }
 }
 
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+  .products__list {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+
 @media only screen and (max-width: 765px) {
   .banner__content h2,
   .products__info h3 {
