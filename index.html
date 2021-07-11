@@ -20,10 +20,7 @@
         <div class="banner__img"></div>
         <div class="banner__content container">
           <h2>A melhor loja de Jordan</h2>
-          <p>
-            O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e
-            o jogador Michael Jordan.
-          </p>
+          <p id="typed"> </p>
         </div>
       </section>
 
@@ -93,5 +90,15 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          ,
+          "O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.",
+        ],
+        typeSpeed: 30,
+      });
+    </script>
   </body>
 </html>
